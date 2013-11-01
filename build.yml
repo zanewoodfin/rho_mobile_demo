@@ -1,0 +1,24 @@
+#sdk: "/home/zane/.rvm/gems/ruby-1.9.3-p448/gems/rhodes-4.0.0"
+sdkversion: 4.1.0
+name: Demo
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 6.0
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator6.0
+  provisionprofile:
+  codesignidentity:
+  entitlements:
+  BundleIdentifier: com.rhomobile.demo
+  BundleURLScheme: demo
+wp:
+  productid: 'f6ae3750-24ab-0131-2b1f-0090f5b82219'
+symbian:
+  uid: '0xe09f60e0'
+android:
+  version: 4.1.2
+
+extensions: ["rhoconnect-client"]
